@@ -1,0 +1,11 @@
+{
+  "name": "abw-syntax",
+  "theme": "abw",
+  "version": "0.0.2",
+  "description": "Andy Wardley's Custom Syntax",
+  "repository": "https://github.com/abw/abw-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

@@ -1,0 +1,59 @@
+@import "./stylesheets/base.less";
+
+.editor .entity.name.class {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.editor .constant.other {
+    color: #6a3;
+}
+
+.editor .entity.name.function {
+    //font-weight: bold;
+}
+
+.editor .comment .type.todo {
+    font-weight: bold;
+    font-style: normal;
+    border-bottom: 1px solid #f70;
+    color: #ff7f00;
+}
+
+.editor .comment .fixme {
+    font-weight: bold;
+    font-style: normal;
+    border-bottom: 1px solid #f20;
+    color: #f20;
+}
+
+.html.string {
+    color: @html-string;
+}
+.meta.tag.tt {
+    color: @tt-color;
+}
+
+.meta.tag.tt .definition.tag.tt {
+    color: @tt-tag-color;
+}
+
+.tag.tt .variable.tt {
+    color: @tt-variable-color;
+}
+
+.tag.tt .keyword.tt {
+    color: @tt-punctuation-color;
+}
+
+.tag.tt .keyword.control.tt {
+    color: @tt-keyword-color;
+}
+
+.tag.tt .filename.tt {
+    color: @tt-filename-color;
+}
+
+.tag.tt .string.tt {
+    color: @tt-string-color;
+}
